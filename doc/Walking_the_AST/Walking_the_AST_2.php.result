@@ -1,0 +1,125 @@
+array(
+    0: Stmt_Class(
+        attrGroups: array(
+        )
+        flags: 0
+        name: Identifier(
+            name: A
+        )
+        extends: null
+        implements: array(
+        )
+        stmts: array(
+            0: Stmt_ClassMethod(
+                attrGroups: array(
+                )
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: test
+                )
+                params: array(
+                    0: Param(
+                        attrGroups: array(
+                        )
+                        flags: 0
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: foo
+                        )
+                        default: null
+                    )
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Expression(
+                        expr: Expr_Assign(
+                            var: Expr_Variable(
+                                name: int
+                            )
+                            expr: Scalar_Int(
+                                value: 123
+                            )
+                        )
+                    )
+                )
+            )
+            1: Stmt_ClassMethod(
+                attrGroups: array(
+                )
+                flags: 0
+                byRef: false
+                name: Identifier(
+                    name: test2
+                )
+                params: array(
+                    0: Param(
+                        attrGroups: array(
+                        )
+                        flags: 0
+                        type: null
+                        byRef: false
+                        variadic: false
+                        var: Expr_Variable(
+                            name: foo
+                        )
+                        default: null
+                    )
+                )
+                returnType: null
+                stmts: array(
+                    0: Stmt_Expression(
+                        expr: Expr_Assign(
+                            var: Expr_Variable(
+                                name: int
+                            )
+                            expr: Scalar_Int(
+                                value: 123
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
+beforeTraverse argument is  PhpParser\Node\Stmt\Class_
+enterNode argument is PhpParser\Node\Stmt\Class_
+enterNode argument is PhpParser\Node\Identifier
+leaveNode argument is PhpParser\Node\Identifier
+enterNode argument is PhpParser\Node\Stmt\ClassMethod
+enterNode argument is PhpParser\Node\Identifier
+leaveNode argument is PhpParser\Node\Identifier
+enterNode argument is PhpParser\Node\Param
+enterNode argument is PhpParser\Node\Expr\Variable
+leaveNode argument is PhpParser\Node\Expr\Variable
+leaveNode argument is PhpParser\Node\Param
+enterNode argument is PhpParser\Node\Stmt\Expression
+enterNode argument is PhpParser\Node\Expr\Assign
+enterNode argument is PhpParser\Node\Expr\Variable
+leaveNode argument is PhpParser\Node\Expr\Variable
+enterNode argument is PhpParser\Node\Scalar\Int_
+leaveNode argument is PhpParser\Node\Scalar\Int_
+leaveNode argument is PhpParser\Node\Expr\Assign
+leaveNode argument is PhpParser\Node\Stmt\Expression
+leaveNode argument is PhpParser\Node\Stmt\ClassMethod
+enterNode argument is PhpParser\Node\Stmt\ClassMethod
+enterNode argument is PhpParser\Node\Identifier
+leaveNode argument is PhpParser\Node\Identifier
+enterNode argument is PhpParser\Node\Param
+enterNode argument is PhpParser\Node\Expr\Variable
+leaveNode argument is PhpParser\Node\Expr\Variable
+leaveNode argument is PhpParser\Node\Param
+enterNode argument is PhpParser\Node\Stmt\Expression
+enterNode argument is PhpParser\Node\Expr\Assign
+enterNode argument is PhpParser\Node\Expr\Variable
+leaveNode argument is PhpParser\Node\Expr\Variable
+enterNode argument is PhpParser\Node\Scalar\Int_
+leaveNode argument is PhpParser\Node\Scalar\Int_
+leaveNode argument is PhpParser\Node\Expr\Assign
+leaveNode argument is PhpParser\Node\Stmt\Expression
+leaveNode argument is PhpParser\Node\Stmt\ClassMethod
+leaveNode argument is PhpParser\Node\Stmt\Class_
+afterTraverse argument is PhpParser\Node\Stmt\Class_
