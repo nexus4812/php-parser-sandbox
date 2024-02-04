@@ -1,0 +1,11 @@
+{
+    "name": "my/php-parser-sandbox",
+    "require": {
+        "nikic/php-parser": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "My\\PhpParserSandbox\\": "src/"
+        }
+    }
+}
